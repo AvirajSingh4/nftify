@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+ 
+}
+body{
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+  ), url('https://img.freepik.com/free-photo/man-neon-suit-sits-chair-with-neon-sign-that-says-word-it_188544-27011.jpg?w=1060&t=st=1692993680~exp=1692994280~hmac=ff3215ade603db96a90a9877546f931ce98e18f08cfe524c4c66756f50d83697');
+}
+.done{
+  display: flex;
+  margin: -670px 350px 0px
+}
+li{
+  list-style: none;
+  padding: 15px;
+  cursor: pointer;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  &:hover{
+  background-color: #F30050;
+  transition: .3s all;
+  border-radius: 8px;
+}
+}
+.content{
+    margin-bottom: 18px;
+    padding: 22px;
+    background: #390554;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 282px;
+    font-size: 13px;
+    height: 210px;
+    white-space: pre;
+    font-family: 'Roboto', sans-serif;
+}
+.label{
+  font-weight: bold;
+}
+tr{
+  margin-bottom: 8px;
+}
+.address{
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 137px;
+}
+
+.sidebar{
+  border-radius: 0px, 32px 32px 0px;
+  margin-top: -72px;
+  width: 288px;
+  height: 780px;
+  flex:1;
+  min-height: 26vh;
+  background-color: rgb(41, 39, 39);  
+  .top{
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+      .logo
+      {
+          font-size: 20px;
+          font-weight: bold;
+          color: #FFFFFFB2;
+          font-family: 'Pacifico', cursive;
+          font-size: 32px;
+          letter-spacing: 2px;
+          margin-bottom: 20px;
+      }
+  }
+
+  .center{
+      padding-left: 40px;
+      ul{
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          li{
+              display: flex;
+              align-items: center;
+              margin-top: 30px;
+              padding: 5px;
+              cursor: pointer;
+
+              &:hover
+              {
+                  background-color: #eaeaea;
+                  border-radius: 0px 30px 30px 0px;
+                   
+                   
+              }
+
+              .icon{
+                  font-size: 24px;
+                  color: #868686;                   
+              }
+
+              span{
+                  font-size: 13px;
+                  font-weight: 600;
+                  color: #888;
+                  margin-left: 22px;
+              }
+          }
+
+           
+      }
+  }
+
+  .middle
+  {
+      
+      margin: 20px;
+
+      .middle_card
+      {
+          text-align: center;
+          background-color: white;
+          padding: 20px;
+          border-radius: 14px;
+          margin-top: 146px;
+          .card_text
+          {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              font-size: 16px;
+          }
+          
+              p{
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              color: #AA8AC3;
+              font-size: 12px;
+              padding: 10px;
+              }
+              .card_button
+              {
+                  background-color:#BBD8F4 ;
+                  border: none;
+                  padding: 12px 63px;
+                  border-radius: 34px;
+                  font-size: 15px;
+                  font-weight: 600;
+              }
+           
+      }
+  }
+
+}
